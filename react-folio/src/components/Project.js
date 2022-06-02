@@ -2,7 +2,10 @@
 import React, {Component} from "react";
 // import card from bootstrap
 import Card from "react-bootstrap/Card";
-// import react route (???? maybe)
+// import images
+import anifan from "../assets/images/anifan.png";
+import hangry from "../assets/images/hangry.png";
+import password from "../assets/images/password.png";
 export default class Projects extends Component {
    render () {
        return (
@@ -14,7 +17,7 @@ export default class Projects extends Component {
                     <section Row style={{justifyContent: "center", paddingBottom:"15px"}}>
                         <div Col md= {4} className="Project-Card-1">
                             <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Img variant="top" src= {anifan} />
                             <Card.Body>
                                 <Card.Title>I'm Hangry</Card.Title>
                                 <Card.Text>
@@ -29,7 +32,7 @@ export default class Projects extends Component {
                         </div>
                         <div Col md= {4} className="Project-Card-2">
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Img variant="top" src={hangry} />
                             <Card.Body>
                                 <Card.Title>AniFan</Card.Title>
                                 <Card.Text>
@@ -44,7 +47,7 @@ export default class Projects extends Component {
                         </div>
                         <div Col md= {4} className="Project-Card-3">
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Img variant="top" src={password} />
                             <Card.Body>
                                 <Card.Title>Password Generator</Card.Title>
                                 <Card.Text>
