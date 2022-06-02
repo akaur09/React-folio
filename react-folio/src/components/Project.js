@@ -12,19 +12,48 @@ export default class Projects extends Component {
                         <h1 className="proj-heading"> Projects I Have Done</h1>
                     </section>
                     <section Row style={{justifyContent: "center", paddingBottom:"15px"}}>
-                        <div Col md= {4} className="Project-Card">
+                        <div Col md= {4} className="Project-Card-1">
                             <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>I'm Hangry</Card.Title>
                                 <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
+                                A website where the user can get help to figure out what to eat
                                 </Card.Text>
                             </Card.Body>
                             <Card.Body>
-                                <Card.Link href="#">Card Link</Card.Link>
-                                <Card.Link href="#">Another Link</Card.Link>
+                                <Card.Link href="#">Webstie</Card.Link>
+                                <Card.Link href="#">Github</Card.Link>
+                            </Card.Body>
+                            </Card>
+                        </div>
+                        <div Col md= {4} className="Project-Card-2">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Body>
+                                <Card.Title>AniFan</Card.Title>
+                                <Card.Text>
+                                A website created for anime fans who cannot decide what to watch next
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Body>
+                                <Card.Link href="#">Webstie</Card.Link>
+                                <Card.Link href="#">Github</Card.Link>
+                            </Card.Body>
+                            </Card>
+                        </div>
+                        <div Col md= {4} className="Project-Card-3">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+                            <Card.Body>
+                                <Card.Title>Password Generator</Card.Title>
+                                <Card.Text>
+                                A web application which helps users create strong and secure passwords
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Body>
+                                <Card.Link href="#">Webstie</Card.Link>
+                                <Card.Link href="#">Github</Card.Link>
                             </Card.Body>
                             </Card>
                         </div>
