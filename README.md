@@ -8,7 +8,7 @@ This website is for potential employers to view my work
 ## Installation
     npm install
     npm start
-    when runnign the app in development mode, the app will run on localhost/3000
+    when running the app in development mode, the app will run on localhost/3000
 ## Creditors
 Amnider Kaur (github: https://github.com/akaur09)
 ## Resources Used
