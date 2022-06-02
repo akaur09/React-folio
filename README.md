@@ -2,11 +2,13 @@
 Portfolio created using REACT. 
 
 ## Description
-    This assignment is a portfolio web application using React. 
+This assignment is a portfolio web application using React. In the application, there are pages that the user can navigate to to see my project, my bio and how to contact me.
 ## Usage
-
+This website is for potential employers to view my work
 ## Installation
-npm install
+    npm install
+    npm start
+    when runnign the app in development mode, the app will run on localhost/3000
 ## Creditors
 Amnider Kaur (github: https://github.com/akaur09)
 ## Resources Used
