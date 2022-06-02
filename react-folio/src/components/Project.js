@@ -25,8 +25,8 @@ export default class Projects extends Component {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Body>
-                                <Card.Link href="#">Webstie</Card.Link>
-                                <Card.Link href="#">Github</Card.Link>
+                                <Card.Link href="#https://github.com/akaur09/im-hangry">Webstie</Card.Link>
+                                <Card.Link href="#https://miacarmen.github.io/im-hangry/">Github</Card.Link>
                             </Card.Body>
                             </Card>
                         </div>
@@ -40,8 +40,8 @@ export default class Projects extends Component {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Body>
-                                <Card.Link href="#">Webstie</Card.Link>
-                                <Card.Link href="#">Github</Card.Link>
+                                <Card.Link href="#https://stark-forest-86865.herokuapp.com/">Webstie</Card.Link>
+                                <Card.Link href="#https://github.com/akaur09/AniFan">Github</Card.Link>
                             </Card.Body>
                             </Card>
                         </div>
@@ -55,8 +55,8 @@ export default class Projects extends Component {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Body>
-                                <Card.Link href="#">Webstie</Card.Link>
-                                <Card.Link href="#">Github</Card.Link>
+                                <Card.Link href="#https://akaur09.github.io/Secret-password-maker/">Webstie</Card.Link>
+                                <Card.Link href="#https://github.com/akaur09/Secret-password-maker">Github</Card.Link>
                             </Card.Body>
                             </Card>
                         </div>
